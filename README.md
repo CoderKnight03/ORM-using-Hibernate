@@ -25,6 +25,7 @@ Then follow the steps:<br>
       ∘ your desired Database name and port in the Database URL<br>
       ∘ your Username<br>
       ∘ your Password<br>
+      * Refer the [hibernate.cfg.xml](https://github.com/CoderKnight03/ORM-using-Hibernate/blob/0763c3f0fae21857800576650d0818cbee26a52c/hibernate.cfg.xml) for easy understanding
 3. Set proper values as desired, in the CRUD Methodologies 
 4. Run the Application
         ⟶ Make sure `hibernate.cfg.xml` is properly configured and MySQL server is 
