@@ -7,25 +7,24 @@ This Project contains a basic implementation of ORM using the Hibernate Framewor
 - MySQL as Database
 - Eclipse IDE
 
+
 **Project features** <br>
 Insert new Categories, Products, and Users <br>
 Place Orders for Products with multiple OrderDetails <br>
 Fetch Orders along with associated Users and Products <br>
 
-**Setup Instructions**
- Clone the Repository
-        ⟶ https://github.com/satCODER04/Web-development.git
 
-    2. Open in your IDE
-        ⟶ Use Eclipse, IntelliJ IDEA, or any preferred Java IDE.
-
-   3. Configure Database
-        ⟶ Set up a local MySQL (or any chosen DB) database.
-        ⟶ Create a schema (e.g., ecommerce_db).
-        ⟶ Update your hibernate.cfg.xml with:
-                ∘ Database URL
-                ∘ Username
-                ∘ Password
+**Setup Instructions** <br>
+First Clone the Repository to the Local Machine ⟶ https://github.com/CoderKnight03/ORM-using-Hibernate.git <br>
+Then follow the steps:<br>
+1. Open the project in your IDE
+   ⟶ Use Eclipse, IntelliJ IDEA, or any preferred Java IDE
+2. Configure Database
+   ⟶ Set up a local MySQL database
+   ⟶ Update the hibernate.cfg.xml with:
+      ∘ your desired Database name and port in the Database URL
+      ∘ your Username
+      ∘ your Password
 
     4. Run the Application
         ⟶ Make sure `hibernate.cfg.xml` is properly configured and MySQL server is 
