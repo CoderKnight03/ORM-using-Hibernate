@@ -19,15 +19,16 @@ First download the Project [ECommerce.zip](https://github.com/CoderKnight03/ORM-
 Then follow the steps:<br>
 1. Open the project in your IDE <br>
    ⟶ Use Eclipse, IntelliJ IDEA, or any preferred Java IDE
-2. Configure Database<br>
+2. 
+3. Configure Database<br>
    ⟶ Set up a local MySQL database<br>
    ⟶ Update the `hibernate.cfg.xml` with:<br>
-      ∘ your desired Database name and port in the Database URL<br>
-      ∘ your `username`<br>
-      ∘ your `password`<br>
-      ∘ Refer the [hibernate.cfg.xml](https://github.com/CoderKnight03/ORM-using-Hibernate/blob/0763c3f0fae21857800576650d0818cbee26a52c/hibernate.cfg.xml) for easy understanding
-3. Set proper values as desired, in the CRUD Methodologies. Check [CRUD Methods](https://github.com/CoderKnight03/ORM-using-Hibernate/tree/81a24e8458b72a503e46a206b36c432fb91b88ad/CRUD) for defined Methodologies 
-4. Run the Application
+         ∘ your desired Database name and port in the Database URL<br>
+         ∘ your `username`<br>
+         ∘ your `password`<br>
+         ∘ Refer the [hibernate.cfg.xml](https://github.com/CoderKnight03/ORM-using-Hibernate/blob/0763c3f0fae21857800576650d0818cbee26a52c/hibernate.cfg.xml) for easy understanding
+4. Set proper values as desired, in the CRUD Methodologies. Check [CRUD Methods](https://github.com/CoderKnight03/ORM-using-Hibernate/tree/81a24e8458b72a503e46a206b36c432fb91b88ad/CRUD) for defined Methodologies 
+5. Run the Application
    ⟶ Make sure `hibernate.cfg.xml` is properly configured and MySQL server is 
               running.
         ⟶ Run App.java to initiate the SessionFactory.
