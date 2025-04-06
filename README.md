@@ -52,7 +52,7 @@ Then follow the steps:<br>
 - Relationships between entities are handled using proper mapping cardinalities as per Hibernate Framework
 - Passwords are securely encrypted in hashed form using `BCrypt` before saving to the database
 
-See [Test Cases](./TEST_CASES.md) for executing test cases for this Project with defined outputs
+See [Test Cases](https://github.com/CoderKnight03/ORM-using-Hibernate/blob/7f4b8646410770794ea49f0f6dea8bcb0e6d2761/Sample%20Test%20Cases.md) for executing test cases for this Project with defined outputs
 
 
 **Authors and Acknowledgment:**<br>
