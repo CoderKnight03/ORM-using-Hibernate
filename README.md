@@ -15,7 +15,7 @@ Fetch Orders along with associated Users and Products <br>
 
 
 **Setup Instructions** <br>
-First download the Project ECommerce.zip from Project to the Local Machine and extract it <br>
+First download the Project ECommerce.zip from Project/ECommerce.zip to the Local Machine and extract it <br>
 Then follow the steps:<br>
 1. Open the project in your IDE <br>
    ⟶ Use Eclipse, IntelliJ IDEA, or any preferred Java IDE
