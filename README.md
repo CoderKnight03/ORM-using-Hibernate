@@ -1,13 +1,13 @@
 ## ORM-using-Hibernate
 
-**Overview**
+**Overview** <br>
 This Project contains a basic implementation of ORM using the Hibernate Framework. The project creates an E-Commerce Management System that allows you to manage Categories, Products, Users, and Orders with multiple Order Details. The ORM is achieved using technologies and tools, like
 - Hibernate Framework
 - JDBC
 - MySQL as Database
 - Eclipse IDE
 
-**Project features**
+**Project features** <br>
 Insert new Categories, Products, and Users <br>
 Place Orders for Products with multiple OrderDetails <br>
 Fetch Orders along with associated Users and Products <br>
