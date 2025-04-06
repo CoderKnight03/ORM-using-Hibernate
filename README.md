@@ -15,18 +15,18 @@ Fetch Orders along with associated Users and Products <br>
 
 
 **Setup Instructions** <br>
-First Clone the Repository to the Local Machine ⟶ https://github.com/CoderKnight03/ORM-using-Hibernate.git <br>
+First download the Project ECommerce.zip from Project to the Local Machine and extract it <br>
 Then follow the steps:<br>
-1. Open the project in your IDE
+1. Open the project in your IDE <br>
    ⟶ Use Eclipse, IntelliJ IDEA, or any preferred Java IDE
-2. Configure Database
-   ⟶ Set up a local MySQL database
-   ⟶ Update the hibernate.cfg.xml with:
-      ∘ your desired Database name and port in the Database URL
-      ∘ your Username
-      ∘ your Password
-
-    4. Run the Application
+2. Configure Database<br>
+   ⟶ Set up a local MySQL database<br>
+   ⟶ Update the hibernate.cfg.xml with:<br>
+      ∘ your desired Database name and port in the Database URL<br>
+      ∘ your Username<br>
+      ∘ your Password<br>
+3. Set proper values as desired, in the CRUD Methodologies 
+4. Run the Application
         ⟶ Make sure `hibernate.cfg.xml` is properly configured and MySQL server is 
               running.
         ⟶ Run App.java to initiate the SessionFactory.
