@@ -1,6 +1,6 @@
-## ORM-using-Hibernate
+# ORM-using-Hibernate
 
-**Overview** <br>
+**Overview:** <br>
 This Project contains a basic implementation of ORM using the Hibernate Framework. The project creates an E-Commerce Management System that allows you to manage Categories, Products, Users, and Orders with multiple Order Details. The ORM is achieved using technologies and tools, like
 - `Hibernate` Framework
 - `JDBC`
@@ -11,13 +11,13 @@ This Project contains a basic implementation of ORM using the Hibernate Framewor
 Check [here](https://github.com/CoderKnight03/ORM-using-Hibernate/blob/bab73f5a2739c09afb9a418eb4197084ad48e148/Data%20Base%20Schema.md) for the Data Base Schema
 
 
-**Project features** <br>
+**Project features:** <br>
 Insert new Categories, Products, and Users <br>
 Place Orders for Products with multiple OrderDetails <br>
 Fetch Orders along with associated Users and Products <br>
 
 
-**Setup Instructions** <br>
+**Setup Instructions:** <br>
 First download the Project [ECommerce.zip](https://github.com/CoderKnight03/ORM-using-Hibernate/tree/363dc102b6396b6b3cafe905395b8d1705cb0589/Project) to the Local Machine and extract it <br>
 Then follow the steps:<br>
 1. Open the project in your IDE <br>
@@ -37,17 +37,17 @@ Then follow the steps:<br>
    - Also ensure that the defined `database` in `hibernate.cfg.xml` is already created
    - Run `App.java` to initiate the `SessionFactory` and create the Entities in the mentioned database
    - The `SessionFactory` management is done in the `HibernateUtil.java` 
-   - Execute various CRUD Operations
-     ⟶ new CreateCategory(sessionFactory);
-     ⟶ new CreateProduct(sessionFactory);
-     ⟶ new CreateUsers(sessionFactory);
-     ⟶ new CreateOrders(sessionFactory);
-     ⟶ new Fetch(sessionFactory);
+   - Execute various CRUD Operations <br>
+     ⟶ new CreateCategory(sessionFactory);<br>
+     ⟶ new CreateProduct(sessionFactory);<br>
+     ⟶ new CreateUsers(sessionFactory);<br>
+     ⟶ new CreateOrders(sessionFactory);<br>
+     ⟶ new Fetch(sessionFactory);<br>
 7. Verify Database and Output
    - Check the database modifications via `MySQL Workbench` or the `Command Line Client`
   
 
-**Development Highlights**<br>
+**Development Highlights:**
 - Java classes are annotated with JPA annotations like `@Entity`, `@Table`, `@GeneratedValue`, `@Id`, `@OneToMany`, and `@ManyToOne` for mapping the Java Objects to Database Properties and Relations (ORM)
 - Relationships between entities are handled using proper mapping cardinalities as per Hibernate Framework
 - Passwords are securely encrypted in hashed form using `BCrypt` before saving to the database
@@ -55,5 +55,5 @@ Then follow the steps:<br>
 See [Test Cases](./TEST_CASES.md) for executing test cases for this Project with defined outputs
 
 
-**Authors and Acknowledgment**<br>
+**Authors and Acknowledgment:**<br>
 The Titled Project was created by [Priyal Banerjee](https://github.com/CoderKnight03)
