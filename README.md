@@ -1,62 +1,18 @@
-# ORM-using-Hibernate
-The GitHub Repository contains an example implementation of Object-Relational Mapping (ORM) in the Back end of Web Development using the Hibernate Framework. 
+## ORM-using-Hibernate
 
 **Overview**
-
-This project is a basic e-commerce backend system built using Java and Hibernate. It allows you to manage Categories, Products, Users, and Orders with multiple Order Details. The application performs database interactions using Hibernate ORM, and MySQL is used as the backend database.
-
-**Entity details**
-
-1. Category Entity: 
-          ⟶ id (Primary Key, auto-generated) 
-          ⟶ name (Unique, Not Null) 
-          ⟶ description 
-          Relationship: One-to-Many with Product 
-
-2. Product Entity: 
-           ⟶ id (Primary Key, auto-generated) 
-           ⟶ name (Not Null) 
-           ⟶ price (Decimal, Not Null) 
-           ⟶ stockQuantity (Integer) 
-           Relationship: Many-to-One with Category
-
-3. Users Entity: 
-            ⟶ id (Primary Key, auto-generated) 
-            ⟶ username (Unique, Not Null) 
-            ⟶ password (Hashed, Not Null) 
-            ⟶ email (Unique, Not Null) 
-            ⟶ role (ADMIN, CUSTOMER) 
-            Relationship: One-to-Many with Orders 
-
-4. Orders Entity: 
-             ⟶ id (Primary Key, auto-generated) 
-             ⟶ orderDate (Timestamp, Not Null) 
-             ⟶ totalAmount (Decimal, Not Null) 
-             Relationship: Many-to-One with Users, One-to-Many with OrderDetails 
-
-5. OrderDetails Entity: 
-              ⟶ id (Primary Key, auto-generated) 
-              ⟶ quantity (Integer, Not Null) 
-              ⟶ unitPrice (Decimal, Not Null) 
-              Relationship: Many-to-One with Orders, Many-to-One with Product
-   
-**Technologies used**
-
-Java
-Hibernate
-MySQL
-Maven
-IDE (Eclipse or IntelliJ IDEA)
+This Project contains a basic implementation of ORM using the Hibernate Framework. The project creates an E-Commerce Management System that allows you to manage Categories, Products, Users, and Orders with multiple Order Details. The ORM is achieved using technologies and tools, like
+- Hibernate Framework
+- JDBC
+- MySQL as Database
+- Eclipse IDE
 
 **Project features**
-
-Insert new Categories, Products, and Users
-Create Orders with multiple OrderDetails
-Fetch Orders along with associated Users and Products
-Hibernate ORM used for mapping entities and performing DB operations
+Insert new Categories, Products, and Users <br>
+Place Orders for Products with multiple OrderDetails <br>
+Fetch Orders along with associated Users and Products <br>
 
 **Setup Instructions**
-
  Clone the Repository
         ⟶ https://github.com/satCODER04/Web-development.git
 
